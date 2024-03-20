@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/scripts/script.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Fortune Cookie</title>
 </head>
 <body>
 
-    <!--<button onclick="alert(randomMessage())">Open the Fortune cookie</button>-->
-    <img src="/images/Cookie.webp" alt="Fortune cookie" onclick="alert(randomMessage())"/>
+   <center> <img src="/images/Cookie.webp" alt="Fortune cookie" id="cookieImg" class="cookieImg" onclick="randomMessage()" onmouseout="backToNurmal()"/>
+
+    <div class="container">
+        <blockquote class="quote-card">
+          <p id="cookieText" class="cookieText">
+            Click to crack the fortune cookie.
+          </p>
+        </blockquote>
+    </div>
+
+</center>
+
 </body> 
 </html>

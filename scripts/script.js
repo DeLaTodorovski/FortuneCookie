@@ -45,5 +45,19 @@ const messagesArray = [
     
     function randomMessage(){
         let randNum = Math.floor(Math.random() * messagesArray.length);
-        return messagesArray[randNum];
+        changeImg();
+        changeTxt(messagesArray[randNum]);
+        //return messagesArray[randNum];
     }
+
+    function backToNurmal(){
+        document.getElementById('cookieImg').src = "/images/cookie.webp";
+        changeTxt('Try again. Click to crack the fortune cookie');
+    }
+
+    function changeImg() {
+        document.getElementById('cookieImg').src = "/images/cookie-cracked.webp";
+      }
+      function changeTxt(randMsg) {
+        document.getElementById("cookieText").innerHTML = randMsg;
+      }
