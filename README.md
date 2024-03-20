@@ -1,8 +1,8 @@
-#Fortune Cookie
+# Fortune Cookie
 
-Randome message generator with fortune cookie messages
+*** Randome message generator with fortune cookie messages ***
 
-##Functions:
+## Functions:
 
 * Click the fortune cookie
 * Opens new randome fortune message
