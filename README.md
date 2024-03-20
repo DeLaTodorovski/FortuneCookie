@@ -1,6 +1,6 @@
 # Fortune Cookie
 
-*** Randome message generator with fortune cookie messages ***
+Randome message generator with fortune cookie messages
 
 ## Functions:
 
